@@ -1,0 +1,60 @@
+body{
+	background:url("back1.jpeg") no-repeat;
+	background-size:cover;
+	background-position-x:center;
+	background-position-y:center;
+	padding:20px;
+	color:white;
+}
+.NavigationMenu{
+background-color:#89f7fe;
+color:black;
+padding:5px 25px;
+text-decoration:none;
+}
+.menubar{
+background-color:#89f7fe;
+padding:5px 25px;
+text-decoration:none;
+color:black;
+}
+
+.menubar:hover{
+background-color:#66a6ff;
+}
+
+.nonStyle{
+	text-decoration:none;
+	color:black;
+	background-color:#89f7fe;
+	border:none;
+}
+
+.nonStyle:focus{
+	outline:none;
+	border:none;
+}
+.nonStyle:hover{
+background-color:#66a6ff;
+}
+
+.float-container{
+	padding:20px;
+	color:black;
+}
+.float-child{
+	background-color:#ebedee; 
+	margin-bottom:15px;
+	margin-top:15px;
+	float:left;
+}
+.columnDiv{
+	scroll-behavior:smooth;
+	height:460px;
+	overflow:scroll;
+	margin-left:20px;
+	border-top-color:#89f7fe;
+	border-left-color:#89f7fe;
+	background:transparent;
+}
+
